@@ -15,6 +15,43 @@ body {
   align-items: center;
 }
 
+.cta a, .cta a:visited, .cta a:hover, .cta a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+a.fancy-link {
+  color: #3A612D;
+}
+
+a.fancy-link:visited {
+  color: #D2F0FA;
+}
+
+a.fancy-link:hover, a.fancy-link:focus {
+  text-shadow: gray 3px, 3px, 8px;
+}
+
+section:first-of-type h2 {
+  font-weight: 900;
+  text-align: center;
+}
+
+p.big-cap:first-letter {
+  font-size: 200%;
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+  background-color: #3A612D;
+  color: white;
+}
+
+.highlighted {
+  background-color: #D2F0FA;
+  padding: 1rem;
+}
+
 .cta {
   text-align: center;
   display: flex;
